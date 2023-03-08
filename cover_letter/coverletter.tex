@@ -1,0 +1,159 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\name{Dr. Ian C.}{Weaver}
+\position{Education{\enskip\cdotp\enskip}Software{\enskip\cdotp\enskip}Outreach}
+\address{San Francisco, CA, USA}
+
+\mobile{(+1) 202 643 3163}
+\email{weaveric@gmail.com}
+%\dateofbirth{January 1st, 1970}
+\homepage{icweaver.github.io}
+\github{icweaver}
+\linkedin{icweaver}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+%quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {SETI Institute Affiliates program}
+  {Mountain View, CA, US}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for SETI Affiliate position}
+% How the letter is opened
+\letteropening{Dear all,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Dr. Ian C. Weaver~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+I am writing to express my sincere interest in the opportunity to be a SETI Institute Affiliate.
+
+During my time as an undergraduate student at UC Santa Cruz, I had the privilege to provide
+teaching and mentorship support for the introductory physics courses as part of the nationally
+recognized academic support program, the Academic Excellence Program (ACE), which is
+dedicated to increasing the diversity of students in STEM. Some of my favorite memories from this
+experience involved the pauses where I would take a step back from the chalkboard/whiteboard
+and watch as my students would collaborate with each other in smaller groups and even pull up
+their own board to brainstorm over the day's learning objectives together. During my three years
+with this program, I learned invaluable lessons and tools for being an effective teacher in a
+classroom setting, and I applied these active-learning principles to my teaching duties as a
+graduate student.
+
+Last year, I graduated with my doctorate in Astronomy \& Astrophysics from Harvard
+University. In addition to conducting my own research on the characterization of the atmospheres
+of an under-studied population of exoplanets known as high-gravity hot Jupiters as part of an
+international collaboration, I had the chance to participate in several teaching and mentorship
+opportunities. These included i) providing teaching support and office hours for three separate
+undergraduate lower and upper division courses, ii) participating in the intensive teaching training
+program, the Institute for Scientist and Engineer Educators Professional Development Program
+(ISEE PDP), to develop and teach a week long summer workshop in stellar evolution for the
+Banneker Institute, a college preparation program for historically marginalized students in STEM,
+and iii) creating a science outreach chapter at my school, Open Labs at Harvard (OLAH), dedicated
+to providing educational programs to the greater Boston area by combining bite-sized TED talk
+inspired presentations geared towards a general audience with active group engagement.
+
+I am passionate about providing folks with the tools they need to not only tackle the problems
+before them, but to also develop their own inquiry based intuition that they can apply to their own future work. I personally see this SETI Affiliate position as an exciting
+opportunity for me to apply the tools I have gathered during my time as an undergraduate and
+graduate student researcher, teacher, and mentor to make a positive impact on a growing population of citizen scientists, and to promote a diverse, equitable, and inclusive environment. Thank
+you in advance for your consideration, and I look forward to hearing from you at your earliest
+convenience!
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
