@@ -12,4 +12,5 @@
 #autoImport("publications")
 #autoImport("presentations")
 #autoImport("honors")
+#autoImport("observing")
 #cvFooter()
