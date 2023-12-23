@@ -1,0 +1,4 @@
+[submodule "brilliant-CV"]
+	path = brilliant-CV
+	url = git@github.com:icweaver/brilliant-CV-Submodule.git
+	branch = ian
